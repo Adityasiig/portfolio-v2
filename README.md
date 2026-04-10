@@ -1,16 +1,135 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ⚡ Aditya Singh — Portfolio v2
 
-Currently, two official plugins are available:
+**Web Developer & Security Researcher**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[![Live Site](https://img.shields.io/badge/🌐%20Live%20Site-adityasiig.github.io%2Fportfolio--v2-00FF9C?style=for-the-badge&labelColor=0A0F1A)](https://adityasiig.github.io/portfolio-v2/)
+[![GitHub](https://img.shields.io/badge/GitHub-Adityasiig-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Adityasiig)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-singhaditya70-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/singhaditya70)
+[![Deploy](https://img.shields.io/github/actions/workflow/status/Adityasiig/portfolio-v2/deploy.yml?style=for-the-badge&label=Deploy&logo=githubactions&logoColor=white&labelColor=0A0F1A)](https://github.com/Adityasiig/portfolio-v2/actions)
 
-## React Compiler
+<br/>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> *"I break things to learn how to fix them."*
 
-## Expanding the ESLint configuration
+<br/>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 👉 [**View Live Portfolio →**](https://adityasiig.github.io/portfolio-v2/)
+
+</div>
+
+---
+
+## 🖥️ Preview
+
+```
+┌─────────────────────────────────────────────────────┐
+│  aditya@kali ~ %                              ● ● ●  │
+├─────────────────────────────────────────────────────┤
+│  $ whoami                                           │
+│                                                     │
+│  Aditya Singh                                       │
+│  ▸ Web Developer & Security Researcher              │
+│  ▸ BSc IT · 3rd Year                               │
+│  ▸ Building WebVulnScanner v2 (AI exploits)         │
+│  ▸ Open to work                                     │
+│                                                     │
+│  $ _                                                │
+└─────────────────────────────────────────────────────┘
+```
+
+---
+
+## ✨ Features
+
+| Section | Highlights |
+|---------|-----------|
+| **Hero** | Matrix rain canvas, typewriter animation, interactive terminal card |
+| **About** | Bio, current focus, animated proficiency bars |
+| **Skills** | Languages · Web/Backend · Security · Tools & Cloud |
+| **Projects** | WebVulnScanner, TaskFlow, Terminal Portfolio — with live links |
+| **Certifications** | All 9 certificates with category badges |
+| **Contact** | Validated contact form + social links |
+
+- Framer Motion animations throughout
+- Scroll-aware floating navbar with active section highlight
+- Fully responsive — 375px → 1440px
+- Zero layout shift, `prefers-reduced-motion` respected
+- Auto-deploy on every push via GitHub Actions
+
+---
+
+## 🛠️ Tech Stack
+
+![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-3-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-0055FF?style=flat-square&logo=framer&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-deployed-222?style=flat-square&logo=github&logoColor=white)
+
+---
+
+## 🚀 Run Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/Adityasiig/portfolio-v2.git
+cd portfolio-v2
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+```
+
+Opens at `http://localhost:5173/portfolio-v2/`
+
+---
+
+## 📦 Build & Deploy
+
+```bash
+# Production build
+npm run build
+
+# Preview production build locally
+npm run preview
+```
+
+**Auto-deploy:** Every push to `main` triggers GitHub Actions → builds → deploys to Pages automatically.
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── layout/         # Navbar, Footer
+│   ├── sections/       # Hero, About, Skills, Projects, Certifications, Contact
+│   └── ui/             # MatrixRain, AnimatedText, SectionHeader, BrandIcons
+├── data/
+│   └── portfolio.js    # ← all your info lives here (easy to update)
+├── hooks/
+│   └── useInView.js
+├── App.jsx
+└── index.css
+```
+
+> **To update your info:** edit `src/data/portfolio.js` — all content (projects, skills, certs, links) is in one place.
+
+---
+
+## 📬 Contact
+
+- **Email:** adityaajaysingh0104@gmail.com
+- **LinkedIn:** [singhaditya70](https://linkedin.com/in/singhaditya70)
+- **GitHub:** [Adityasiig](https://github.com/Adityasiig)
+
+---
+
+<div align="center">
+  <sub>Built with React + Vite + Tailwind CSS + Framer Motion</sub>
+</div>
